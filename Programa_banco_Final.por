@@ -7,6 +7,7 @@ programa
 	
 	funcao inicio()
 	{
+		// leandro
 		inteiro menuOpcao
 		cadeia numeroConta = " "
 		cadeia cpf =" "
@@ -184,7 +185,12 @@ programa
 			
 		}enquanto(contador <= 10)
 	}
+
+	//Fim Leandro
+
+	//Nathalia
 	funcao Corrente(cadeia numeroConta, cadeia cpf, real saldo)
+	
 	{
 		inteiro contador = 2
 		caracter operacao
@@ -318,6 +324,9 @@ programa
 		}enquanto(contador <= 10)
 		
 	}
+	//fim Nathalia
+
+	//Caio
 	funcao Especial(cadeia numeroConta, cadeia cpf, real saldo)
 	{
 		real limite = 1000.00
@@ -418,6 +427,9 @@ programa
 			}enquanto(movimentacoes !=0)
 			
 	}
+	//Fim caio
+
+	//Agni
 	funcao Empresarial (cadeia numeroConta, cadeia cpf, real saldo)
 	{
 
@@ -569,6 +581,9 @@ programa
 		}			
 	}
 			
+	//fim Agni
+
+	//Rodrigo
 	funcao Estudantil(cadeia numeroConta, cadeia cpf, real saldo)
 	{
 		caracter operacao
@@ -686,6 +701,9 @@ programa
 		}enquanto(con>=1)
 	}
 
+	//fim Rodrigo
+
+	//leandro
 	funcao BarraCarregar()
 	{
 		inteiro x // variavel para efeito de carregamento do sistema
@@ -709,14 +727,15 @@ programa
 		escreva("[Dedicação, flexibilidade e transparência]\n")
 	}
 	
-	
+	//fim leandro
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1092; 
+ * @POSICAO-CURSOR = 16393; 
+ * @DOBRAMENTO-CODIGO = [191, 329, 432, 586];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
