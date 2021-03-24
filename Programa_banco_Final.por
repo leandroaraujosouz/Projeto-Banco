@@ -11,7 +11,7 @@ programa
 		inteiro menuOpcao
 		cadeia numeroConta = " "
 		cadeia cpf =" "
-		real saldo = 500.00	
+		real saldo = 0.0
 		logico ativo
 		cadeia aniversario = ""			
 		Cabecalho()
@@ -21,8 +21,6 @@ programa
 		leia(numeroConta)
 		escreva("Digite o cpf: ")
 		leia(cpf)
-		escreva("Digite o Saldo: ")
-		leia(saldo)
 		escreva("Conta Ativa 1- Sim ou 2 Não: ")
 		leia(menuOpcao)
 
@@ -99,6 +97,8 @@ programa
 		{
 			limpa()
 			escreva("Hoje é seu aniversário! Parabéns! \nFaremos o reajuste do seu Saldo\n")
+			escreva("Digite o Saldo: ")
+			leia(saldo)
 			escreva("Saldo: R$",saldo,"\n")
 			BarraCarregar()
 			saldo = (saldo*0.05)+saldo
@@ -729,15 +729,3 @@ programa
 	
 	//fim leandro
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 16393; 
- * @DOBRAMENTO-CODIGO = [191, 329, 432, 586];
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz;
- */
