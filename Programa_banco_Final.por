@@ -343,9 +343,9 @@ programa
 				faca{	
 					limpa()
 					Cabecalho()
-					escreva("\nCONTA [ESPECIAL]")
+					escreva("\nCONTA [ESPECIAL]\n")
 					escreva("Saldo atual: ", saldo,"\n")
-					escreva("Limite disponível: ", limite)
+					escreva("Limite disponível: ", limite,"\n")
 					escreva("Escolha uma das operações a seguir:\n'1' para débito\n'2' para crédito\n")
 					escreva("Digite o número da operação selecionada: ")
 					leia(opcao2)
